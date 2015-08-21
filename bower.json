@@ -1,12 +1,12 @@
 {
-  "name": "ng-spa",
+  "name": "app",
   "version": "1.0.0",
   "main": "app.js",
   "moduleType": [
     "node"
   ],
   "authors": [
-    "Marco Romero"
+    "Sven SAULEAU"
   ],
   "license": "GNU",
   "homepage": ".",
