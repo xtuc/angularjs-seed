@@ -9,6 +9,6 @@ AngularJS 1.x seed
 + [JSHint](http://jshint.com/) : Code quality analyzer. Detects code smells and bad practices.
 + [Jade](http://jade-lang.com/) : Templating language to create re-usable HTML components.
 + [Babel](https://babeljs.io/) : Babel is a compiler for writing next generation JavaScript.
-+ [Sass](http://sass-lang.com/) : CSS preprocessor that helps us maintain our css assets.
++ [Less](http://lesscss.org/) : CSS pre-processor
 + [AngularJS](https://angularjs.org/) : JavaScript Front-End framework to structure and fast develop web applications.
 + [Angular UI Router](http://angular-ui.github.io/ui-router/site/#/api/ui.router): Route and easily use nested views.
