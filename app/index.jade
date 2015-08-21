@@ -1,0 +1,33 @@
+doctype html
+html
+    head
+        link(rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css")
+        link(rel="stylesheet" href="styles/app.min.css")
+    body(ng-app="app")
+        
+     #main.container-fluid
+        .col-md-2.sidebar
+            .row
+              .absolute-wrapper  
+              .side-menu
+                nav.navbar.navbar-default(role='navigation')
+                  .side-menu-container
+                    ul.nav.navbar-nav
+                      li.active
+                        a(href='#/')
+                          span.glyphicon.glyphicon-dashboard
+                          |  Dashboard
+                      li
+                        a(href='#engine')
+                          span.glyphicon.glyphicon-plane
+                          |  Test
+                      li
+                        a(href='#deploy')
+                          span.glyphicon.glyphicon-plane
+                          |  Test
+                          
+        .col-md-10.content
+            #app-view(ui-view)
+
+    script(type="text/javascript", src="scripts/vendors.js")
+    script(type="text/javascript", src="scripts/app.bundle.js")
