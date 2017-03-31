@@ -1,6 +1,8 @@
 AngularJS 1.x seed
 ==================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/xtuc/angularjs-seed.svg)](https://greenkeeper.io/)
+
 + [Gulp](http://gulpjs.com/) : Main automation and local build tool. Compiles templates, runs units test, concatenate javascript and css files, among other things.
 + [Mocha](http://mochajs.org/) : Unit testing framework. It has great flexibility, is compatible between browser and server and has a good set of assertion and mock libraries [Chai](http://chaijs.com/) & [Sinon](http://sinonjs.org/).
 + [Browserify](http://browserify.org/) : Node module that allows the usage of CommonJS modules in the browser.
